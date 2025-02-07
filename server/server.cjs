@@ -19,7 +19,7 @@ app.use(bodyParser.json());
 app.use(express.json());
 
 
-const MONGO_URI = "mongodb://localhost:27017/";
+const MONGO_URI = "mongodb+srv://blsailaja07:<g3POJrcfsqRpgHur>@cluster0.dxyjq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 const DATABASE_NAME = "gameDB";
 const COLLECTION_NAME = "players";
 const LEADERBOARD_COLLECTION = "leaderboards";
